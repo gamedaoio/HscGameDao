@@ -1,0 +1,2 @@
+# HscGameDao
+HscGameDao
