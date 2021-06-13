@@ -1,0 +1,41 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta charset=utf-8><meta data-n-head=true property=og:site_name content="GameDao DeFi"><meta data-n-head=true property=og:title content="GameDao DeFi"><meta data-n-head=true property=og:type content=website><meta data-n-head=true property=og:url content=https://gamedao.io><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"><meta name=apple-mobile-web-app-capable content=yes><title data-n-head=true>GameDao</title><link data-n-head=true rel=icon type=image/x-icon href=/static/favicon.ico><style>* {
+      margin: 0;
+      padding: 0;
+    }
+
+    #cnzz_stat_icon_1278802451 {
+      display: none;
+    }
+
+    #app {
+      height: 100%;
+    }
+
+    .el-message {
+      margin-top: 40px !important;
+    }
+
+    .vc-switch {
+      bottom: 100px !important;
+    }</style><link href=https://cdn.jsdelivr.net/gh/gamedaoio/HscGameDao/static/css/app.d6eacfade9df668b16044cb04f60c3df.css rel=stylesheet></head><body style="margin:0 auto;"><div id=app></div><script>window.dataLayer = window.dataLayer || [];
+
+    const keyCodeMap = {
+      91: true, // command
+      61: true,
+      107: true, // 数字键盘 +
+      109: true, // 数字键盘 -
+      173: true, // 火狐 - 号
+      187: true, // +
+      189: true, // -
+    };
+    // 覆盖ctrl||command + ‘+’/‘-’
+    document.onkeydown = function (event) {
+      const e = event || window.event;
+      const ctrlKey = e.ctrlKey || e.metaKey;
+      if (ctrlKey && keyCodeMap[e.keyCode]) {
+        e.preventDefault();
+      } else if (e.detail) {
+        // Firefox
+        event.returnValue = false;
+      }
+    };</script><script src=https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js></script><script src=https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js></script><script src=https://cdn.jsdelivr.net/npm/vue-router@3.0.1/dist/vue-router.min.js></script><script src=https://cdn.jsdelivr.net/npm/vuex@3.0.1/dist/vuex.min.js></script><script src=https://cdn.jsdelivr.net/npm/axios@0.18.0/dist/axios.min.js></script><script src=https://cdn.jsdelivr.net/npm/element-ui@2.13.2/lib/index.js></script><script src=https://cdn.jsdelivr.net/npm/element-ui@2.13.2/lib/umd/locale/zh-CN.js></script><script src=https://cdn.jsdelivr.net/npm/element-ui@2.13.2/lib/umd/locale/en.js></script><script src=https://cdn.jsdelivr.net/gh/gamedaoio/HscGameDao/static/js/BigInteger.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/gh/gamedaoio/HscGameDao/static/js/manifest.b6dca5868891d43ea475.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/gh/gamedaoio/HscGameDao/static/js/vendor.2e8ccc0d6896d4408f2a.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/gh/gamedaoio/HscGameDao/static/js/app.40e92dbecc49844d652d.js></script></body></html>
